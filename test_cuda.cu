@@ -14,8 +14,8 @@ int main() {
         printf("CUDA error: %s\n", cudaGetErrorString(err));
         return -1;
     }
-    
+
     cudaDeviceSynchronize();
-    
+
     return 0;
 }
